@@ -83,11 +83,14 @@
   font-size:16px;
 }
 .photo-container{
-    background-image: url('/img/appbg1.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg');
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    height: 130vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     justify-content: space-between;
     align-items: center;
 }
@@ -117,6 +120,7 @@
     margin: 12px 0px;
     background-color: rgba(0, 128, 0, 0.66);
     border: none;
+    cursor: pointer;
     color: white;
     border-radius: 5px;
 }
@@ -149,6 +153,7 @@
     padding: 8px 0px;
     margin: 12px 0px;
     border: none;
+    cursor: pointer;
     color: white;
     border-radius: 5px;
 }
@@ -179,6 +184,7 @@
 }
 #p-c-l-btn3{
     width: 100%;
+    cursor: pointer;
     padding: 8px 0px;
     margin: 12px 0px;
     background-color: rgba(13, 0, 128, 0.66);

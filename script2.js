@@ -56,19 +56,19 @@ pclbtn3.onmouseenter = function(){
     pclbtn3.style.color = "black"
 }
 pcrbtn1.onclick = function(){
-    bg.style.backgroundImage = "url('/img/appbg2.jpg')";
+    bg.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg')";
     pcl2.style.display ='none';
     pcl3.style.display ='none';
     pcl1.style.display = 'block'
 }
 pcrbtn2.onclick = function(){
-    bg.style.backgroundImage = "url('/img/appbg3.jpg')";
+    bg.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_960_720.jpg')";
     pcl1.style.display ='none';
     pcl2.style.display ='block';
     pcl3.style.display ='none';
 }
 pcrbtn3.onclick = function(){
-    bg.style.backgroundImage = "url('/img/appbg4.jpg')";
+    bg.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg')";
     pcl1.style.display ='none';
     pcl2.style.display ='none';
     pcl3.style.display ='block';
